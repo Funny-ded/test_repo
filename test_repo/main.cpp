@@ -9,6 +9,8 @@ int main(int argc, char** argv)
 	std::cout << "Hello, World!" << std::endl;
 
 	system("pause");
+
+	h();
 	
 	return EXIT_SUCCESS;
 }
