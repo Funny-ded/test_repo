@@ -1,6 +1,7 @@
 #include <iostream>
 
 void f();
+void h();
 
 int main(int argc, char** argv)
 {
@@ -14,4 +15,9 @@ int main(int argc, char** argv)
 void f()
 {
 	std::cout << 42 << std::endl;
+}
+
+void h()
+{
+	std::cout << -1 << std::endl;
 }
